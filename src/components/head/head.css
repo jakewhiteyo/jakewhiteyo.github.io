@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'longhaul', sans-serif;
+    font-weight: 400;
+    font-size: 20vw;
+    text-align: center;
+    letter-spacing: -0.015em;
+  
+    color: var(--color-light);
+    margin-top: 5%;
+  }
+  img {
+      width: 50%;
+      height:auto;
+      margin-left: auto;
+      margin-right: auto;
+      position: absolute;
+      
+    }
+    img:hover {
+        transform: scale(1.1);
+        transition: all .3s ease-in-out;
+    }
+    .imgJake {
+        z-index:1;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    }
+  .imgCircle {
+    z-index:3
+  }
+  .center {
+    left: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .profile {
+
+  }

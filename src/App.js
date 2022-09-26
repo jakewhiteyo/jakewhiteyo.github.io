@@ -1,17 +1,18 @@
 
-import pfp from './assets/pfp.jpg'
 import './App.css';
+import About from './components/about/About';
+import Experience from './components/experience/Experience'
+import Contact from './components/contact/Contact'
+import Head from './components/head/Head.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={pfp} className="App-logo" alt="logo" />
-        <p>
-          jakewhiteyo
-        </p>
-      </header>
-    </div>
+    <>
+      <Head />
+      <About />
+      <Experience />
+      <Contact />
+    </>
   );
 }
 
