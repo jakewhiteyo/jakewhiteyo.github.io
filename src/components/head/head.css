@@ -14,19 +14,19 @@ h1 {
       margin-left: auto;
       margin-right: auto;
       position: absolute;
-      
     }
     img:hover {
         transform: scale(1.1);
         transition: all .3s ease-in-out;
-        cursor: pointer;
+        opacity: 10%;
     }
     .imgJake {
         z-index:1;
         filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+        z-index:9;
     }
   .imgCircle {
-    z-index:3
+    z-index:2;
   }
   .center {
     left: 25%;
