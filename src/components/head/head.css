@@ -1,72 +1,84 @@
 h1 {
-    font-family: 'longhaul', sans-serif;
-    font-weight: 400;
-    font-size: 20vw;
-    text-align: center;
-    letter-spacing: -0.015em;
-  
-    color: var(--color-light);
-    margin-top: 5%;
-  }
-  img {
-      width: 50%;
-      height:auto;
-      margin-left: auto;
-      margin-right: auto;
-      position: absolute;
-    }
-    img:hover {
-        transform: scale(1.1);
-        transition: all .3s ease-in-out;
-        opacity: 10%;
-    }
-    .imgJake {
-        z-index:1;
-        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-        z-index:9;
-    }
-  .imgCircle {
-    z-index:2;
-  }
-  .center {
-    left: 25%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .pad {
-      padding: 2%;
-  }
+  font-family: "longhaul", sans-serif;
+  font-weight: 400;
+  font-size: 20vw;
+  text-align: center;
+  letter-spacing: -0.015em;
+
+  color: var(--color-light);
+  margin-top: 5%;
+}
+.imgHead {
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+}
+
+.imgJake {
+  z-index: 1;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+  z-index: 9;
+}
+.imgJake:hover {
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+  opacity: 10%;
+}
+.imgCircle {
+  z-index: 2;
+}
+.center {
+  left: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.pad {
+  padding: 2%;
+}
 button {
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2vw;
-    transition-duration: 0.5s;
-    border-radius: 5px;
-    margin-right: 5%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  margin-right: 5%;
 }
 .resumeButton {
-    border: none;
-    color: var(--color-bg);
-    border: 2px solid var(--color-primary-variant);
-    background-color: var(--color-primary-variant); /* Green */
+  border: none;
+  color: var(--color-bg);
+  border: 2px solid var(--color-primary-variant);
+  background-color: var(--color-primary-variant); /* Green */
 }
 .resumeButton:hover {
-    background-color: var(--color-bg);
-    color: var(--color-primary-variant);
-    cursor: pointer;
+  background-color: var(--color-bg);
+  color: var(--color-primary-variant);
+  cursor: pointer;
 }
 .contactButton {
-    border: none;
-    color: var(--color-bg);
-    border: 2px solid var(--color-primary);
-    background-color: var(--color-primary); /* Green */
+  border: none;
+  color: var(--color-bg);
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-primary); /* Green */
 }
 .contactButton:hover {
-    background-color: var(--color-bg);
-    color: var(--color-primary);
-    cursor: pointer;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.icon {
+  color: var(--color-primary);
+}
+.headerSocials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 2rem;
 }

@@ -1,0 +1,38 @@
+.experienceBody {
+  background-color: var(--color-bg-variant);
+}
+.experienceContainer {
+  display: grid;
+  gap: 10%;
+  padding: 5%;
+  margin-bottom: 2rem;
+}
+.experienceCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.imgBackground {
+  background-color: white;
+  border-radius: 5%;
+}
+.imgSpace {
+  width: 100%;
+}
+.experienceImg {
+  width: 60%;
+}
+.reconImg {
+  width: 80%;
+}
+.experienceCard {
+  background-color: var(--color-bg);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem 5rem;
+  text-align: center;
+  transition: 0.5s;
+}
+.experienceCard:hover {
+  border: 1px solid var(--color-primary);
+}

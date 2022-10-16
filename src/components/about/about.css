@@ -1,0 +1,48 @@
+.aboutIcon {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  gap: 5%;
+  padding: 5%;
+}
+.aboutMe {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-bg-variant),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+.aboutMeImage {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(5deg);
+  transition: 0.5s;
+}
+.aboutMeImage:hover {
+  transform: rotate(0);
+}
+.imgJakeSquare {
+  width: 100%;
+  border-radius: 2rem;
+}
+.aboutCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.aboutCard {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}

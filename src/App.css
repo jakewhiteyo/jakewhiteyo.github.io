@@ -10,7 +10,7 @@
 }
 :root {
   --color-bg: #0d2137;
-  --color-bg-variant: #182D43;
+  --color-bg-variant: #061b32;
   --color-primary: #2e77ae;
   --color-primary-variant: #ff8e2b;
   --color-white: #ffff;
@@ -26,14 +26,35 @@ html {
 }
 
 ::-webkit-scrollbar {
-  display:none;
+  display: none;
 }
 
 @font-face {
-  font-family: 'longhaul';
-  src: url(assets/fonts/Longhaul.ttf)
+  font-family: "longhaul";
+  src: url(assets/fonts/Longhaul.ttf);
 }
 
 body {
   background-color: var(--color-bg);
+}
+
+p {
+  color: var(--color-white);
+  text-align: left;
+}
+small {
+  color: var(--color-white);
+  font-size: 1.5vw;
+}
+h2 {
+  color: var(--color-primary);
+  font-size: 4vw;
+}
+h4 {
+  color: var(--color-white);
+  font-size: 2vw;
+}
+h5 {
+  color: var(--color-white);
+  font-size: 1.5vw;
 }
