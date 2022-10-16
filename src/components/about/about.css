@@ -21,6 +21,9 @@
   display: grid;
   place-items: center;
 }
+.aboutContent p {
+  font-size: 1.5vw;
+}
 .aboutMeImage {
   border-radius: 2rem;
   overflow: hidden;
@@ -45,4 +48,38 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+}
+
+/* medium devices */
+@media screen and (max-width: 1024px) {
+  .aboutContainer {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .aboutMe {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .aboutContent {
+    margin: 1rem 0 1.5rem;
+  }
+  .aboutContent p {
+    font-size: 2vw;
+  }
+}
+
+/* small devices */
+@media screen and (max-width: 600px) {
+  .aboutMe {
+    width: 60%;
+    margin: 0 auto 3rem;
+  }
+  .aboutCards {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .aboutContent p {
+    margin: 1.5rem 0;
+    font-size: 3vw;
+  }
 }

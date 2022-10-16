@@ -29,10 +29,57 @@
   background-color: var(--color-bg);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem 5rem;
+  padding: 2rem 2rem;
   text-align: center;
   transition: 0.5s;
 }
 .experienceCard:hover {
   border: 1px solid var(--color-primary);
+}
+li {
+  list-style-type: disc;
+  text-align: left;
+  color: var(--color-white);
+  margin: 0.5rem;
+}
+
+/* medium devices */
+@media screen and (max-width: 1024px) {
+  .experienceImg {
+    width: 40%;
+  }
+  .reconImg {
+    width: 50%;
+  }
+  .experienceCards {
+    grid-template-columns: 1fr;
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .experienceCard {
+    padding: 1rem;
+  }
+  li {
+    font-size: 2vw;
+  }
+  .experienceCard h4 {
+    font-size: 3vw;
+  }
+  .experienceCard small {
+    font-size: 2vw;
+  }
+}
+
+/* small devices */
+@media screen and (max-width: 600px) {
+  .experienceCard h4 {
+    font-size: 5vw;
+  }
+  .experienceCard small {
+    font-size: 3vw;
+  }
+  li {
+    font-size: 3vw;
+  }
 }
