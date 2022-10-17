@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a89c1159.css",
-    "main.js": "./static/js/main.b3b20abb.js",
+    "main.css": "./static/css/main.5011b257.css",
+    "main.js": "./static/js/main.cf3fe8f7.js",
     "static/js/787.493c633b.chunk.js": "./static/js/787.493c633b.chunk.js",
     "static/media/jake-white-resume-2022.pdf": "./static/media/jake-white-resume-2022.67a67dc83b140d837dab.pdf",
     "static/media/jake-square.png": "./static/media/jake-square.e5bf9f1a2e5f58127d7d.png",
@@ -10,12 +10,12 @@
     "static/media/Longhaul.ttf": "./static/media/Longhaul.7685f03b671a2dffc164.ttf",
     "static/media/RiskRecon.png": "./static/media/RiskRecon.5cf5bfafaa799dcaf566.png",
     "index.html": "./index.html",
-    "main.a89c1159.css.map": "./static/css/main.a89c1159.css.map",
-    "main.b3b20abb.js.map": "./static/js/main.b3b20abb.js.map",
+    "main.5011b257.css.map": "./static/css/main.5011b257.css.map",
+    "main.cf3fe8f7.js.map": "./static/js/main.cf3fe8f7.js.map",
     "787.493c633b.chunk.js.map": "./static/js/787.493c633b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a89c1159.css",
-    "static/js/main.b3b20abb.js"
+    "static/css/main.5011b257.css",
+    "static/js/main.cf3fe8f7.js"
   ]
 }
