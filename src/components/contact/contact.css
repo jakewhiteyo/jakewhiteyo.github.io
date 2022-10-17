@@ -1,0 +1,68 @@
+.contactIcon {
+  color: var(--color-white);
+  font-size: 2rem;
+}
+.contactContainer {
+  display: grid;
+  gap: 5%;
+  padding: 5%;
+}
+.contact {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+.contactContent p {
+  font-size: 1.5vw;
+}
+.contactCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.contactCard {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+.contactCard:hover {
+  border: 1px solid var(--color-primary);
+}
+/* medium devices */
+@media screen and (max-width: 1024px) {
+  .contactCards {
+    grid-template-columns: 1fr;
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .experienceCard {
+    padding: 1rem;
+  }
+  .contactCard h4 {
+    font-size: 3vw;
+  }
+  .contactCard small {
+    font-size: 2vw;
+  }
+}
+
+/* small devices */
+@media screen and (max-width: 600px) {
+  .experienceCard h4 {
+    font-size: 5vw;
+  }
+  .experienceCard small {
+    font-size: 3vw;
+  }
+}

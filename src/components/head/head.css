@@ -19,12 +19,11 @@ h1 {
 .imgJake {
   z-index: 1;
   filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
-  z-index: 9;
+  z-index: 3;
 }
 .imgJake:hover {
-  transform: scale(0.9);
+  transform: scale(1.05);
   transition: all 0.3s ease-in-out;
-  opacity: 10%;
 }
 .imgCircle {
   z-index: 2;

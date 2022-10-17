@@ -1,0 +1,6 @@
+.footerBody {
+  background-color: var(--color-bg-variant);
+}
+.footerContainer {
+  padding: 7%;
+}
