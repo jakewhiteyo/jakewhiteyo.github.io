@@ -37,6 +37,10 @@ const Experience = () => {
                 Transition existing code functionality to work with new
                 eCommerce providers.
               </li>
+              <li>
+                Query PostgreSQL database with TypeORM and MySQL for various
+                front-end and back-end logic.
+              </li>
             </ul>
             <small style={{ color: "var(--color-primary)" }}>
               May 2022 – Present
