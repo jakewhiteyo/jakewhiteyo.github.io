@@ -16,8 +16,7 @@ const Experience = () => {
               <a
                 href="https://www.viacustomers.com/"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <img alt="VIA" className="experienceImg" src={VIA} />
               </a>
             </div>
@@ -43,7 +42,7 @@ const Experience = () => {
               </li>
             </ul>
             <small style={{ color: "var(--color-primary)" }}>
-              May 2022 – Present
+              May 2022 – December 2022
             </small>
           </article>
           <article className="experienceCard">
@@ -81,8 +80,7 @@ const Experience = () => {
               <a
                 href="https://www.riskrecon.com/"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <img alt="RiskRecon" className="reconImg pad" src={RiskRecon} />
               </a>
             </div>
