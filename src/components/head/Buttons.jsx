@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/jake-white-resume-2022.pdf";
+import resume from "../../assets/Jake White Resume 2025.pdf";
 import "./head.css";
 
 const downloadResume = () => {
@@ -11,7 +11,7 @@ const downloadResume = () => {
       // Setting various property values
       let alink = document.createElement("a");
       alink.href = fileURL;
-      alink.download = "jake-white-resume-2022.pdf";
+      alink.download = "jake-white-resume-2025.pdf";
       alink.click();
     });
   });

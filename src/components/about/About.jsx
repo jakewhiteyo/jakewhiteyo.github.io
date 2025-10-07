@@ -23,7 +23,7 @@ const About = () => {
               </a>
               <h5>Experience</h5>
               <br />
-              <small>3+ years in the industry</small>
+              <small>5+ years in the industry</small>
             </article>
             <article className="aboutCard">
               <a className="aboutIcon">
@@ -35,17 +35,8 @@ const About = () => {
             </article>
           </div>
           <p className="pad">
-            Experienced and motivated. As a senior in computer science at the
-            University of Utah, I’ve spent the past 3 years of my life exploring
-            and expanding my passion for computer science and software
-            engineering. With three different tech internships and a handful of
-            projects under my belt, I’ve steadily grown my experience in
-            software development by working on a wide variety of technical
-            projects in various architectures and frameworks. I love engineering
-            for the complex problems it introduces and the ability to improve
-            other people’s lives through software. Every project feels like a
-            journey and creates a unique set of challenges and roadblocks to be
-            overcome.
+            I made this website quite a long time ago, I've updated it a bit to
+            contain my new resume but I should really make a new one.
           </p>
         </div>
       </div>

@@ -11,9 +11,11 @@ function App() {
     <>
       <Head />
       <Nav />
-      <About />
-      <Experience />
-      <Contact />
+      <div className="main-container">
+        <About />
+        <Experience />
+        <Contact />
+      </div>
       <Footer />
     </>
   );

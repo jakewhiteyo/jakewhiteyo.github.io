@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
-import { AiOutlinePhone, AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 import bikeImage from "../../assets/bikeSquare.JPG";
 
 const Contact = () => {
@@ -18,15 +18,6 @@ const Contact = () => {
               </a>
               <br />
               <small>jakewhiteyo@gmail.com</small>
-              <br />
-            </article>
-            <article className="contactCard">
-              <br />
-              <a className="contactIcon">
-                <AiOutlinePhone />
-              </a>
-              <br />
-              <small>(435) 659 9077</small>
               <br />
             </article>
             <article className="contactCard">
